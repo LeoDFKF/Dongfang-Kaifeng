@@ -1,0 +1,54 @@
+    .body
+    {
+        background-color: rgb(56, 56, 56);
+    }
+
+    .equipment, .translate
+    {
+        cursor: pointer;
+        
+        font-family: 'Times New Roman', Times, serif;
+        font-size:42px;
+        color: rgb(255, 255, 255);
+        
+        height: 100px;
+        width: 300px;
+
+        background:none;
+        border: none;
+
+        margin-left: 425px;
+
+        text-align: center;
+    }
+    .equipment:hover, .translate:hover
+    {
+        transition: all, 0.5s;
+        transform: scale(1.1);
+
+        border-style:solid;
+        border-width: 0.1px;
+        border-bottom:none;
+        border-top: none;
+        border-color:rgb(56, 56, 56);
+    }
+    
+    .equipment:active, .translate:active{
+        background-color: rgba(240, 248, 255, 0.25);
+        transition: 0.01s;
+    } 
+
+    .Dongfang
+    {
+        margin-left: 300px;
+        margin-bottom: 250px;
+        color: rgb(210, 60, 65);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 82px;
+        font-weight: 700;
+        user-select: none;
+    }
+    .Dongfang:hover{
+        cursor:pointer;
+    }
+
