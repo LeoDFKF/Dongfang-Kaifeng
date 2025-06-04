@@ -1,0 +1,67 @@
+.body{
+    background-color: rgb(56, 56, 56);
+}
+
+.types{
+    text-align: center;
+    color: rgb(209, 58, 63);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.types:hover{
+    cursor: pointer;
+}
+
+.types::selection{
+    color: rgb(255, 255, 255);
+}
+
+.infoAbtEquip{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    background:none;
+    display: inline;
+    text-align:center;
+    font-size: 20px;
+    height: 100px;
+    width: 450px;
+    border:none;
+    padding: 16px;
+}
+
+/* .div{
+    width: 1000px;
+    height: 500px;
+} */
+
+.infoAbtEquip:hover{
+    transition: all;
+    cursor: pointer;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.infoAbtEquip:active{
+    background-color: rgb(79, 79, 79);
+}
+
+.ourModel{
+    color: rgb(209, 58, 63);
+}
+
+.WeChat{
+    color: green;
+    background: none;
+    border: none;
+    width:60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.WeChat:hover{
+    cursor: pointer;
+    color:greenyellow 
+}
+
