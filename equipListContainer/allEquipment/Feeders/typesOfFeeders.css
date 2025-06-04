@@ -1,0 +1,37 @@
+.body{
+    background-color: rgb(56, 56, 56);
+}
+
+.types{
+    text-align: center;
+    color: rgb(209, 58, 63);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-weight: 700;
+}
+.types::selection{
+    color: rgb(255, 255, 255);
+}
+
+.types:hover{
+    cursor: pointer;
+}
+
+.equipButtons{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:36px;
+    color: rgb(255, 255, 255);
+    background:none;
+    border: none;
+    text-align:left;
+    width:800px;
+    height: 75px;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.equipButtons:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
